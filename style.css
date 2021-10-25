@@ -1,0 +1,125 @@
+@charset "UTF-8";
+/* 全頁共通 */
+* {
+    box-sizing: border-box;
+}
+
+#logo {
+margin: 0;
+}
+
+#nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nlist {
+    margin: 0 20px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 150px;
+    text-align: center;
+    border: 2px solid gray;
+}
+
+.nlist:hover {
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+
+.nlist a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+/* index, deiscription共通 */
+.here {
+    border: 3px solid brown;
+}
+
+.works {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.work {
+    display: block;
+    background-color: rgb(179, 177, 177);
+    padding: 10px;
+    margin-bottom: 35px;
+}
+
+.work:hover {
+    opacity: 0.7;
+}
+
+a.url {
+    text-decoration: none;
+}
+
+.dwork {
+    display: block;
+    background-color: rgb(204, 185, 150);
+    padding: 10px;
+    margin-bottom: 35px;
+}
+
+.dwork:hover {
+    opacity: 0.7;
+}
+
+img.wpic {
+    width: 500px;
+    margin-bottom: 0;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+/* プロフィール */
+table.prof {
+    margin: 0 auto 70px;
+    border: 2px solid black;
+}
+caption.prof {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+tr.prof {
+    font-size: 20px;
+    border: 2px solid black;
+}
+
+th, td {
+    border: 2px solid black;
+}
+
+
+
+/* discriptionディレクトリ共通 */
+
+.picc {
+    text-align: center;
+}
+.dpic {
+    width: 800px;
+}
+
+table.disc {
+    border: 2px solid black;
+    border-collapse: collapse;
+    font-size: 25px;
+    margin: 30px auto 70px;
+}
