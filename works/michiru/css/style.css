@@ -3,12 +3,30 @@
 * {
     box-sizing: border-box;
 }
-
+html {
+    height: 100%;
+}
 body {
+    height: 100%;
     text-align: center;
     display: block;
 }
-
+header {
+    height: 10%;
+    border: #000 solid 3px;
+}
+nav {
+    height: 10%;
+    border: #000 solid 3px;
+}
+main {
+    height: 67%;
+    border: #000 solid 3px;
+}
+footer {
+    height: 3%;
+    border: #000 solid 3px;
+}
 .top {
     color: blue;
     font-weight: bold;
