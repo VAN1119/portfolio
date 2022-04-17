@@ -13,10 +13,10 @@ body {
 }
 header {
     margin-top: 20px;
-    height: 10%;
+    height: 15%;
 }
 nav {
-    height: 10%;
+    height: 5%;
 }
 main {
     height: 67%;
@@ -30,7 +30,7 @@ footer {
 }
 
 p {
-    font-size: 23px;
+    font-size: 25px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     display: block;
