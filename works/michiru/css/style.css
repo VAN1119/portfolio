@@ -12,20 +12,17 @@ body {
     display: block;
 }
 header {
+    margin-top: 20px;
     height: 10%;
-    border: #000 solid 3px;
 }
 nav {
     height: 10%;
-    border: #000 solid 3px;
 }
 main {
     height: 67%;
-    border: #000 solid 3px;
 }
 footer {
     height: 3%;
-    border: #000 solid 3px;
 }
 .top {
     color: blue;
@@ -37,6 +34,9 @@ p {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     display: block;
+}
+.btn_cover {
+    margin-top: 50px;
 }
 
 a.btn {
@@ -51,12 +51,14 @@ a.btn {
 }
 
 a.btn:hover {
-    opacity:0.5;
+    opacity:0.8;
+    background-color: #ffb300;
+    border-bottom: 5px solid #cc8100;
 }
   
 a.btn:active {
     margin-top: 3px;
-    border-bottom: 2px solid #ccc100;
+    border-bottom: 2px solid #cc8100;
     position: relative;
 	top: 3px;
  
