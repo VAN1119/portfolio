@@ -84,13 +84,17 @@ a.btn:active {
     background-color: black;
 }
 */
-
 span {
-    color: red;
     font-weight: bold;
 }
+span.name {
+    color: blue;
+}
+span.end {
+    color: red;
+}
 
-span::after {
+span.end::after {
     content: "壽";
 }
 
